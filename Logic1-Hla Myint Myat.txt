@@ -1,0 +1,40 @@
+1.  Start
+2.  Declare Number of Players (Only 2 Players)
+3.  Declare Players (Computer Vs Human)
+4.  Declare Type of Players (Computer=P1, Human=P2)
+5.  Declare Possible choices for each player (Rock, Paper, Scissors)
+6.  Declare the number of countdown (3,2,1)
+7.  Set conditions 
+    {Rock & Paper} =Paper Win 
+    {Rock & Rock} =Tie 
+    {Rock & Scissors} =Rock Win 
+
+    {Paper & Paper} =Tie
+    {Paper & Rock} =Paper Win 
+    {Paper & Scissors} =Scissors Win 
+
+    {Scissors & Paper} =Scissors Win 
+    {Scissors & Rock} =Rock Win 
+    {Scissors & Scissors} =Tie 
+
+8.  If players are ready, then start countdown to 3 
+
+9.  Round1 if P1= Rock then, 
+    If P2= Paper,
+10. Announce P2 as a winner.
+
+11. Round2 if P1=Rock,
+    If P2=Scissors,
+12. Announce P1 as a winner.
+
+13. Round3 if P1=Rock,
+    If P2=Rock then,
+14. Announce tie and show Play again 
+15. End 
+
+
+
+
+
+
+

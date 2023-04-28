@@ -1,0 +1,50 @@
+
+Group 4
+
+Diana Zhou Kuang - Member 6
+Hla Myint Myat - Member 4
+Member 5 was missing.
+
+
+1.  Start
+
+2.  Declare Number of Players (Only 2 Players)
+3.  Declare Players (Computer Vs Human)
+4.  Declare Type of Players (Computer=P1, Human=P2)
+5.  Declare Possible choices for each player (Rock, Paper, Scissors)
+6.  Declare the number of countdown (3,2,1)
+
+7.  Set conditions 
+    {Rock & Paper} =Paper Win 
+    {Rock & Rock} =Tie 
+    {Rock & Scissors} =Rock Win 
+
+    {Paper & Paper} =Tie
+    {Paper & Rock} =Paper Win 
+    {Paper & Scissors} =Scissors Win 
+
+    {Scissors & Paper} =Scissors Win 
+    {Scissors & Rock} =Rock Win 
+    {Scissors & Scissors} =Tie 
+
+8.  If players are ready, then start countdown to 3     
+                                                         
+       Human Player (P2)                       |      Computer Player (P1)
+_______________________________________________|___________________________________________________________
+9.1 Choose the object                          | 9.2 Choose a Randomly Number Between 1 and 3
+  a) Rock: beats Scissors but loses to Paper   | a) 1. Represents Rock: beats Scissors but loses to Paper
+  b) Paper: beats Rock but loses to Scissors   | b) 2. Represents Paper: beats Rock but loses to Scissors
+  c) Scissors: beats Paper but loses to Rock   | c) 3. Represents Scissors: beats Paper but loses to Rock
+
+10. Time is Over!
+  a) The object was already chosen for both: go to step 11.
+  b) The object was not chosen for the human: print "you lose your time!", and go to step 12.
+
+11.  Round# if P1 = P2: announce tie and play again, if not declare loser and winner;    
+
+12. Play again
+  a) Yes: Go to step 8.
+  b) No: Go to step 13.
+
+13. end
+
